@@ -1,0 +1,128 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+pre, a, img
+
+{
+    margin: 0;
+    padding: 0;
+    }
+body {
+    padding: 35px;
+    background-image: url(https://funart.pro/uploads/posts/2021-04/1618522709_31-funart_pro-p-oboi-fon-serii-gradient-32.jpg);
+    background-size: 140%;
+}
+.main {
+    
+    max-width: 800px;
+    margin: 0px auto;
+    height: 1000px;
+    position: relative;
+
+}
+.left {
+    background-color: aqua;
+    width: 35%;
+    height: 1000px;
+    
+}
+.img {
+    display: block;
+    width: 100%;
+    height: 28%;
+    background-color: #282828;
+}
+.contacts {
+    width: 100%;
+    height: 72%;
+    background-color: #282828;
+    color:rgb(222, 222, 222);
+    font-family: Arvo;
+}
+.about {
+    width: 65%;
+    height: 28%;
+    background-color: rgb(222, 222, 222);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Arvo;
+}
+.skils {
+    background-color: rgb(177, 179, 181);
+    width: 65%;
+    height: 32%;
+    position: absolute;
+    right: 0;
+    top: 28%;
+    font-family: Arvo;
+}
+.code {
+    background-color: rgb(177, 179, 181);
+    width: 65%;
+    height: 40%;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    font-family: Arvo;
+}
+.con {
+    padding: 20px 0px 30px 35px;
+    font-size: 35px;
+}
+.cont {
+    padding: 65px 0px 0px 35px;
+}
+.par {
+    padding: 20px 0px 0px 35px
+}
+
+.name {
+    font-size: 40px;
+    padding: 30px 0px 0px 100px;
+
+}
+.nam {
+    font-size: 50px;
+    padding: 5px 0px 0px 100px;
+
+}
+.inf {
+    padding: 30px 30px 0px 30px;
+}
+.photo {
+    display: block;
+    border-radius: 400px 400px;
+    width: 195px;
+    height: 200px;
+    margin: auto;
+    padding: auto;
+    transform: translate(0, 20%);
+}
+
+.codepre {
+    padding: 0px 0px 0px -200px;
+}
+.education {
+    padding: 10px 30px 0px 30px;
+}
+.educat {
+    padding: 30px 30px 20px 100px;
+}
+.cod {
+    padding: 10px 30px 20px 100px;
+}
+.rs {
+    position: absolute;
+    left: 400px;
+    bottom: 15px;
+}
+.link {
+    text-decoration: none;
+    color: aliceblue;
+}
+.rss {
+    position: absolute;
+    left: 430px;
+    bottom: 0px;
+    text-decoration: none;
+    color: #282828;
+}
