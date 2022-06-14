@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://rs.school/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>My CV</title>
+</head>
+<body>
+<div class="main">
+    <div class="left">
+      <div class="img">
+          <img class="photo" src="img/phot.png" alt="My photo" >
+    
+        </div>
+      <div class="contacts">
+<h1 class="con">Contact-</h1>
+<h2 class="cont">Phone:</h2>
+<p class="par">+375-33-666-777</p>
+<h2 class="cont">Email:</h2>
+<p class="par">rscv@gmail.com</p>
+<h2 class="cont">Discord:</h2>
+<p class="par">@senyor-pm</p>
+<h2 class="cont">GitHub:</h2>
+<a href="https://github.com/senyor-pm" class="link"><p class="par">senyor-pm</p></a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="about">
+<p class="name">Pavel</p>
+<p class="nam">Manko</p>
+<p class="inf">My goal is to develop in IT. I have no work experience yet, but I have a great desire to learn</p>
+      </div>
+      <div class="skils">
+        <h2 class="educat">Education</h2>
+        <p class="education">2014 - 2019 Brest State Technical University</p>
+        <p class="education">2022 - ... RS school</p>
+        <h2 class="educat">Skils</h2>
+        <p class="education">English level - B1</p>
+        <p class="education">HTML</p>
+        <p class="education">CSS</p>
+      </div>
+      <div class="code">
+        <h2 class="cod">Code</h2>
+          <pre class="codepre">
+     def friday_y(year)
+     (1..12).reduce(0) do |sum, m|
+     sum += 1 if Date.new(year, m, 13, Date::GREGORIAN).friday?
+      sum
+      end
+     end
+        </pre> 
+        <hr color="#282828" width="300px" size="3px">
+        <pre class="codepre">
+     def rota(arr)
+     arr.each_with_index.map { |x, i| i.odd? ? x.reverse : x }.flatten
+     end
+       
+        </pre>       
+ <hr color="#282828" width="300px" size="3px">
+        <pre class="codepre">
+      function validSpacing(s) {
+      if (s == "")
+      return true
+      else
+      return !s.split(" ").includes("")
+      }
+        </pre>
+      <a href="https://rs.school/js/"><img class="rs" src="https://rs.school/images/rs_school_js.svg" width="100px" height="50px"><span class="rss">2022</span></a>
+       
+
+      </div>
+    </div>
+</div>
+</body>
+</html>
